@@ -4,7 +4,7 @@ body{
     margin: 30px 8px;
     padding: 15px;
     border-radius: 5px;
-    font-size: 20px;
+    font-size: 1rem;
     line-height: 1.5;
     text-align: center;
     color: #333;
@@ -12,9 +12,23 @@ body{
 section{
     display: block;
 }
+#quote{
+    font-style: italic;
+    text-align: left;
+    display: block;
+    margin: 0 auto 50px auto;
+    max-width: 545px;
+
+}
 .title{
     font-size: 4rem;
     text-align: center;
+}
+cite{
+    font-style: italic;
+    text-align: left;
+    margin: 0 auto 50px auto;
+    max-width: 545px;
 }
 main{
     background-color: #eee;
@@ -33,6 +47,11 @@ p{
     margin: 16px 0px;
     color: black;
     text-align: center;
+}
+h3{
+    display:block;
+    font-size: 1.17em;
+    font-weight: bold;
 }
 .img{
     max-width: 100%;
