@@ -9,6 +9,9 @@ body{
     text-align: center;
     color: #333;
 }
+section{
+    display: block;
+}
 .title{
     font-size: 4rem;
     text-align: center;
@@ -19,18 +22,29 @@ main{
     padding: 15px;
     border-radius: 5px;
 }
+figure{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
 p{
     margin: 16px 0px;
     color: black;
     text-align: center;
 }
 .img{
-    background-color: white;
-    padding: 56px;
-    margin: 0px 214.6px;
     max-width: 100%;
     display: block;
     height: auto;
+    margin: 0 auto;
+    margin-right: 20px;
+}
+.img-div{
+    background: white;
+    padding: 10px;
+    margin: 0;
 }
 
 ul{
